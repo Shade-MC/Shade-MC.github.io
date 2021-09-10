@@ -12,7 +12,7 @@ A comprehensive online portal for ongoing STEM systematic review papers that inf
 
 ### Additional information about the project
 
-TODO: Write a compelling/creative/informative project description / summary
+By creating an exhaustive database of ongoing systematic reviews, we hope to build the definitive platform for STEM researchers looking to learn more about the state of reviews in their field.
 
 ## Installation
 
