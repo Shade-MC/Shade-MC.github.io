@@ -4,7 +4,7 @@ STEM Research Review Paper Portal
 
 ## Project summary
 
-A web app that serves as a public registry for systematic review papers in the STEM field. Using this online portal, STEM researchers can upload details of their own ongoing review papers, search for and learn about existing review projects, and connect with potential collaborators in their field. This platform seeks to help researchers stay informed about current review efforts, allowing them to better cooperate with their peers and gain a clearer understanding of what has and hasn't been covered by others.
+A web app that serves as a public registry for systematic review papers in the STEM fields. Using this online portal, STEM researchers can upload details of their own ongoing review papers, search for and learn about existing review projects, and connect with potential collaborators in their field. This platform seeks to help researchers stay informed about current review efforts, allowing them to better cooperate with their peers and gain a clearer understanding of what has and hasn't been covered by others.
 
 ### One-sentence description of the project
 
