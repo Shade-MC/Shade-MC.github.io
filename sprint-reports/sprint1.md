@@ -15,22 +15,22 @@ Our overall approach to the sprint items emphasized speed over quality. For inst
 One barrier we dealt with was the client not responding to our initial introduction. This was problematic because without his response, we couldn't schedule our initial client meeting until later, which ultimately delayed the writing of our project description document. We resolved this issue by sending out a follow-up email, which quickly received a response. This taught us an important lesson that our mentor emphasized during our coaching meeting - in order to succeed, we need to be proactive. That is, if something's wrong, we need to take action instead of hoping the issue will resolve itself. Part of this involves being better at monitoring project progress so we can identify and address these issues earlier.
 
 ## Unfinished Work
-We have not yet completed the project description document, which was technically due today. This is because our client meeting was scheduled late, meaning we didn't have enough information to begin writing the document until this evening. We plan to have this done by tomorrow night. So far, we've made progress on the _, _, and _ sections but still need to start on the _, _, and _ sections.
+We have not yet completed the project description document, which was technically due today. This is because our client meeting was scheduled late, meaning we didn't have enough information to begin writing the document until this evening. We plan to have this done by tomorrow night. So far, we've made progress on the intro and the client/stakeholders sections but still need to start on the background/related work, and the project overview sections.
  
 ## Retrospective Summary
 Here's what went well:
   * We were very responsive to messages in the team chat
   * We completed our assigned tasks quickly
   * We effectively prioritized the most important aspects of the sprint items
-  * 
+  * We were prepared for our first meeting with our client and we communicated well
  
 Here's what we'd like to improve:
    * Monitoring project progress more frequently to identify and address issues earlier
    * Being more proactive in resolving blockers
    * Taking better advantage of our coaching meetings
-   *
+   * Taking advantage of meetings with our client to collaborate on this project
   
 Here are changes we plan to implement in the next sprint:
    * Review current sprint tasks daily to identify blockers
    * Coming prepared to coaching meeting with list of clarification/guidance questions 
-   * 
+   * Using our weekly meetings with our client wisely to collaborate on this project
