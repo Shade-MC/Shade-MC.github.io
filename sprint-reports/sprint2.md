@@ -1,16 +1,17 @@
-# Sprint x Report (9/10/21 - 10/7/2021)
+# Sprint 2 Report (9/10/21 - 10/7/2021)
 
 ## What's New (User Facing)
- * Created requirements portion of the project description
- * Created initial react app to build our app on
- * Created UI mock up and had it approved by our client 
+ * Created requirements and solutions approach sections of project report
+ * Created UI mock ups, presented to client, and received feedback and ideas for new features
+ * Created initial react app, which will be used as the basis for our remaining UI features
+ * Implemented React component for Login feature (however, not yet integrated with backend)
 
 ## Work Summary (Developer Facing)
-This sprint we laid out the ground work for how the rest of the project would be built. We also created basic framework for our project and have began to implementing the features. While none have been completed for this sprint we are in a good spot to make quick progress towards MVP in our next sprint.
+In addition to making progress on our project report, we finally began the development phase of our project. Namely, we installed all the dependencies required for the MERN stack, which include NodeJS, React, MongoDB, and Express, and initialized our React app. We then chose to implement the Login component for our sprint's basic UI feature. 
 
 ## Unfinished Work
-If applicable, explain the work you did not finish in this sprint. For issues/user stories in the current sprint that have not been closed, (a) any progress toward completion of the issues has been clearly tracked (by checking the checkboxes of  acceptance criteria), (b) a comment has been added to the issue to explain why the issue could not be completed (e.g., "we ran out of time" or "we did not anticipate it would be so much work"), and (c) the issue is added to a subsequent sprint, so that it can be addressed later.
- 
+Although we completed the user-facing portion of the Login feature, we still need to integrate it with our Express/MongoDB backend. That is, we still need to create the API for processing login requests and create the necessary infrastructure in our MongoDB database to store and query user account information. 
+
 ## Retrospective Summary
 Here's what went well:
   * Communication between team members
@@ -20,9 +21,11 @@ Here's what went well:
 Here's what we'd like to improve:
    * Improved communication with our client
    * Being more proactive in taking/assigning issues
-   * Item x
+   * Beginning tasks well before due date to make room for potential roadblocks (i.e., padding)
+   * Updating our Github tasks/issues more frequently to ensure they're up to date (as opposed to only giving task updates in group chat)
   
 Here are changes we plan to implement in the next sprint:
-   * Create HTLM/CSS for site
-   * Implement login and account management
+   * Fully implement login (i.e., with backend integration, not just frontend UI)
+   * Implement user registration
    * Implement registering new reviews
+   * Explore React libraries to speed up UI development
