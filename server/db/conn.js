@@ -1,3 +1,9 @@
+/**
+ * Code based on MERN stack tutorial provided by MongoDB's website
+ * https://www.mongodb.com/languages/mern-stack-tutorial
+ * Accessed: 11/11/21
+ */
+
 const { MongoClient } = require("mongodb");
 const Db = process.env.ATLAS_URI;
 const client = new MongoClient(Db, {

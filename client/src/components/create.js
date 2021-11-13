@@ -1,3 +1,8 @@
+/**
+ * Code based on MERN stack tutorial provided by MongoDB's website
+ * https://www.mongodb.com/languages/mern-stack-tutorial
+ * Accessed: 11/11/21
+ */
 import React, { Component } from "react";
 // This will require to npm install axios
 import axios from 'axios';
@@ -7,36 +12,225 @@ export default class Create extends Component {
   constructor(props) {
     super(props);
  
-    this.onChangePersonName = this.onChangePersonName.bind(this);
-    this.onChangePersonPosition = this.onChangePersonPosition.bind(this);
-    this.onChangePersonLevel = this.onChangePersonLevel.bind(this);
+    this.onChangeReviewTitle = this.onChangeReviewTitle.bind(this);
+    this.onChangeOriginalLanguageTitle = this.onChangeOriginalLanguageTitle.bind(this);
+    this.onChangeStartDate = this.onChangeStartDate.bind(this);
+    this.onChangeCompletionDate = this.onChangeCompletionDate.bind(this);
+    this.onChangeReviewStage = this.onChangeReviewStage.bind(this);
+    this.onChangeContactName = this.onChangeContactName.bind(this);
+    this.onChangeCompletionDate = this.onChangeCompletionDate.bind(this);
+    this.onChangeCompletionDate = this.onChangeCompletionDate.bind(this);
+    this.onChangeCompletionDate = this.onChangeCompletionDate.bind(this);
+    this.onChangeCompletionDate = this.onChangeCompletionDate.bind(this);
+    this.onChangeCompletionDate = this.onChangeCompletionDate.bind(this);
+    this.onChangeCompletionDate = this.onChangeCompletionDate.bind(this);
+    this.onChangeCompletionDate = this.onChangeCompletionDate.bind(this);
+    this.onChangeCompletionDate = this.onChangeCompletionDate.bind(this);
+    this.onChangeCompletionDate = this.onChangeCompletionDate.bind(this);
+    this.onChangeCompletionDate = this.onChangeCompletionDate.bind(this);
+    this.onChangeCompletionDate = this.onChangeCompletionDate.bind(this);
+    this.onChangeCompletionDate = this.onChangeCompletionDate.bind(this);
+    this.onChangeCompletionDate = this.onChangeCompletionDate.bind(this);
+    this.onChangeCompletionDate = this.onChangeCompletionDate.bind(this);
+    this.onChangeCompletionDate = this.onChangeCompletionDate.bind(this);
+    this.onChangeCompletionDate = this.onChangeCompletionDate.bind(this);
+    this.onChangeCompletionDate = this.onChangeCompletionDate.bind(this);
+    this.onChangeCompletionDate = this.onChangeCompletionDate.bind(this);
+    this.onChangeCompletionDate = this.onChangeCompletionDate.bind(this);
+
     this.onSubmit = this.onSubmit.bind(this);
  
     this.state = {
-      person_name: "",
-      person_position: "",
-      person_level: "",
+      review_title: "",//
+      original_language_title: "",//
+      start_date: "",//
+      completion_date: "", //
+      review_stage: "",//
+      contact_name: "",//
+      contact_email: "",
+      contact_address: "",
+      contact_phone_num: "",
+      organization_affiliation: "",
+      review_team_members: "",
+      funding_sponsors: "",
+      conflicts_of_interest: "",
+      collaborators: "",
+      review_questions: "",
+      sources: "",
+      search_strategy_url: "",
+      participation_criteria: "",
+      study_criteria: "",
+      primary_outcome: "",
+      secondary_outcome: "",
+      data_extraction: "",
+      bias_assessment: "",
+      data_synthesis: "",
+      sub_group_analysis: "",
+      review_type: "",
+      languages: "",
+      country: "",
+      published_protocol: "",
+      other_registration_details: "",
+      dissemination_plans: "",
+      keywords: "",
+      existing_review_details: "",
+      current_status: "",
+      additional_info: "",
+      final_publication_details: "",
     };
   }
  
   // These methods will update the state properties.
-  onChangePersonName(e) {
+  onChangeReviewTitle(e) {
     this.setState({
-      person_name: e.target.value,
+      review_title: e.target.value,
     });
   }
  
-  onChangePersonPosition(e) {
+  onChangeOriginalLanguageTitle(e) {
     this.setState({
-      person_position: e.target.value,
+      original_language_title: e.target.value,
     });
   }
  
-  onChangePersonLevel(e) {
+  onChangeStartDate(e) {
     this.setState({
-      person_level: e.target.value,
+      start_date: e.target.value,
     });
   }
+
+  onChangeCompletionDate(e) {
+    this.setState({
+      completion_date: e.target.value,
+    });
+  }
+  
+  onChangeReviewStage(e) {
+    this.setState({
+      review_stage: e.target.value,
+    });
+  }
+  
+  onChangeContactName(e) {
+    this.setState({
+      contact_name: e.target.value,
+    });
+  }
+  
+  onChangeCompletionDate(e) {
+    this.setState({
+      completion_date: e.target.value,
+    });
+  }
+  
+  onChangeCompletionDate(e) {
+    this.setState({
+      completion_date: e.target.value,
+    });
+  }
+  
+  onChangeCompletionDate(e) {
+    this.setState({
+      completion_date: e.target.value,
+    });
+  }
+  
+  onChangeCompletionDate(e) {
+    this.setState({
+      completion_date: e.target.value,
+    });
+  }
+  
+  onChangeCompletionDate(e) {
+    this.setState({
+      completion_date: e.target.value,
+    });
+  }
+  
+  onChangeCompletionDate(e) {
+    this.setState({
+      completion_date: e.target.value,
+    });
+  }
+  
+  onChangeCompletionDate(e) {
+    this.setState({
+      completion_date: e.target.value,
+    });
+  }
+  
+  onChangeCompletionDate(e) {
+    this.setState({
+      completion_date: e.target.value,
+    });
+  }
+  
+  onChangeCompletionDate(e) {
+    this.setState({
+      completion_date: e.target.value,
+    });
+  }
+  
+  onChangeCompletionDate(e) {
+    this.setState({
+      completion_date: e.target.value,
+    });
+  }
+  
+  onChangeCompletionDate(e) {
+    this.setState({
+      completion_date: e.target.value,
+    });
+  }
+  
+  onChangeCompletionDate(e) {
+    this.setState({
+      completion_date: e.target.value,
+    });
+  }
+  
+  onChangeCompletionDate(e) {
+    this.setState({
+      completion_date: e.target.value,
+    });
+  }
+  
+  onChangeCompletionDate(e) {
+    this.setState({
+      completion_date: e.target.value,
+    });
+  }
+  
+  onChangeCompletionDate(e) {
+    this.setState({
+      completion_date: e.target.value,
+    });
+  }
+  
+  onChangeCompletionDate(e) {
+    this.setState({
+      completion_date: e.target.value,
+    });
+  }
+  
+  onChangeCompletionDate(e) {
+    this.setState({
+      completion_date: e.target.value,
+    });
+  }
+  
+  onChangeCompletionDate(e) {
+    this.setState({
+      completion_date: e.target.value,
+    });
+  }
+  
+  onChangeCompletionDate(e) {
+    this.setState({
+      completion_date: e.target.value,
+    });
+  }
+  
  
 // This function will handle the submission.
   onSubmit(e) {
@@ -65,68 +259,336 @@ export default class Create extends Component {
   render() {
     return (
       <div style={{ marginTop: 20 }}>
-        <h3>Create New Record</h3>
+        <h3>Submit New Review</h3>
         <form onSubmit={this.onSubmit}>
           <div className="form-group">
-            <label>Name of the person: </label>
+            <label>Review Title: </label>
             <input
               type="text"
               className="form-control"
-              value={this.state.person_name}
-              onChange={this.onChangePersonName}
+              value={this.state.review_title}
+              onChange={this.onChangeReviewTitle}
             />
           </div>
           <div className="form-group">
-            <label>Person's position: </label>
+            <label>Original Language Title: </label>
             <input
               type="text"
               className="form-control"
-              value={this.state.person_position}
-              onChange={this.onChangePersonPosition}
+              value={this.state.original_language_title}
+              onChange={this.onChangeOriginalLanguageTitle}
             />
           </div>
           <div className="form-group">
-            <div className="form-check form-check-inline">
-              <input
-                className="form-check-input"
-                type="radio"
-                name="priorityOptions"
-                id="priorityLow"
-                value="Intern"
-                checked={this.state.person_level === "Intern"}
-                onChange={this.onChangePersonLevel}
-              />
-              <label className="form-check-label">Intern</label>
-            </div>
-            <div className="form-check form-check-inline">
-              <input
-                className="form-check-input"
-                type="radio"
-                name="priorityOptions"
-                id="priorityMedium"
-                value="Junior"
-                checked={this.state.person_level === "Junior"}
-                onChange={this.onChangePersonLevel}
-              />
-              <label className="form-check-label">Junior</label>
-            </div>
-            <div className="form-check form-check-inline">
-              <input
-                className="form-check-input"
-                type="radio"
-                name="priorityOptions"
-                id="priorityHigh"
-                value="Senior"
-                checked={this.state.person_level === "Senior"}
-                onChange={this.onChangePersonLevel}
-              />
-              <label className="form-check-label">Senior</label>
-            </div>
+            <label>Start Date: </label>
+            <input
+              type="text"
+              className="form-control"
+              value={this.state.start_date}
+              onChange={this.onChangeStartDate}
+            />
+          </div>
+          <div className="form-group">
+            <label>Completion Date: </label>
+            <input
+              type="text"
+              className="form-control"
+              value={this.state.completion_date}
+              onChange={this.onChangeCompletionDate}
+            />
+          </div>
+          <div className="form-group">
+            <label>Review Stage: </label>
+            <input
+              type="text"
+              className="form-control"
+              value={this.state.review_stage}
+              onChange={this.onChangeReviewStage}
+            />
+          </div>
+          <div className="form-group">
+            <label>Contact Name: </label>
+            <input
+              type="text"
+              className="form-control"
+              value={this.state.contact_name}
+              onChange={this.onChangeContactName}
+            />
+          </div>
+          <div className="form-group">
+            <label>Contact Email: </label>
+            <input
+              type="text"
+              className="form-control"
+              value={this.state.contact_email}
+              onChange={this.onChangeCompletionDate}
+            />
+          </div>
+          <div className="form-group">
+            <label>Contact Address: </label>
+            <input
+              type="text"
+              className="form-control"
+              value={this.state.contact_address}
+              onChange={this.onChangeCompletionDate}
+            />
+          </div>
+          <div className="form-group">
+            <label>Contact Phone Number: </label>
+            <input
+              type="text"
+              className="form-control"
+              value={this.state.contact_phone_num}
+              onChange={this.onChangeCompletionDate}
+            />
+          </div>
+          <div className="form-group">
+            <label>List all Affiliated Organizations: </label>
+            <input
+              type="text"
+              className="form-control"
+              value={this.state.organization_affiliation}
+              onChange={this.onChangeCompletionDate}
+            />
+          </div>
+          <div className="form-group">
+            <label>List Additional Team Members: </label>
+            <input
+              type="text"
+              className="form-control"
+              value={this.state.review_team_members}
+              onChange={this.onChangeCompletionDate}
+            />
+          </div>
+          <div className="form-group">
+            <label>List all Sponsors/Funding Sources: </label>
+            <input
+              type="text"
+              className="form-control"
+              value={this.state.funding_sponsors}
+              onChange={this.onChangeCompletionDate}
+            />
+          </div>
+          <div className="form-group">
+            <label>Explain any Conflicts of Interest: </label>
+            <input
+              type="text"
+              className="form-control"
+              value={this.state.conflicts_of_interest}
+              onChange={this.onChangeCompletionDate}
+            />
+          </div>
+          <div className="form-group">
+            <label>List any Additional Collaborators: </label>
+            <input
+              type="text"
+              className="form-control"
+              value={this.state.collaborators}
+              onChange={this.onChangeCompletionDate}
+            />
+          </div>
+          <div className="form-group">
+            <label>What is the Primary Question the Review is Answering: </label>
+            <input
+              type="text"
+              className="form-control"
+              value={this.state.review_questions}
+              onChange={this.onChangeCompletionDate}
+            />
+          </div>
+          <div className="form-group">
+            <label>Completion Date: </label>
+            <input
+              type="text"
+              className="form-control"
+              value={this.state.sources}
+              onChange={this.onChangeCompletionDate}
+            />
+          </div>
+          <div className="form-group">
+            <label>Completion Date: </label>
+            <input
+              type="text"
+              className="form-control"
+              value={this.state.search_strategy_url}
+              onChange={this.onChangeCompletionDate}
+            />
+          </div>
+          <div className="form-group">
+            <label>Completion Date: </label>
+            <input
+              type="text"
+              className="form-control"
+              value={this.state.participation_criteria}
+              onChange={this.onChangeCompletionDate}
+            />
+          </div>
+          <div className="form-group">
+            <label>Completion Date: </label>
+            <input
+              type="text"
+              className="form-control"
+              value={this.state.study_criteria}
+              onChange={this.onChangeCompletionDate}
+            />
+          </div>
+          <div className="form-group">
+            <label>Completion Date: </label>
+            <input
+              type="text"
+              className="form-control"
+              value={this.state.primary_outcome}
+              onChange={this.onChangeCompletionDate}
+            />
+          </div>
+          <div className="form-group">
+            <label>Completion Date: </label>
+            <input
+              type="text"
+              className="form-control"
+              value={this.state.secondary_outcome}
+              onChange={this.onChangeCompletionDate}
+            />
+          </div>
+          <div className="form-group">
+            <label>Completion Date: </label>
+            <input
+              type="text"
+              className="form-control"
+              value={this.state.data_extraction}
+              onChange={this.onChangeCompletionDate}
+            />
+          </div>
+          <div className="form-group">
+            <label>Completion Date: </label>
+            <input
+              type="text"
+              className="form-control"
+              value={this.state.bias_assessment}
+              onChange={this.onChangeCompletionDate}
+            />
+          </div>
+          <div className="form-group">
+            <label>Completion Date: </label>
+            <input
+              type="text"
+              className="form-control"
+              value={this.state.data_synthesis}
+              onChange={this.onChangeCompletionDate}
+            />
+          </div>
+          <div className="form-group">
+            <label>Completion Date: </label>
+            <input
+              type="text"
+              className="form-control"
+              value={this.state.sub_group_analysis}
+              onChange={this.onChangeCompletionDate}
+            />
+          </div>
+          <div className="form-group">
+            <label>Completion Date: </label>
+            <input
+              type="text"
+              className="form-control"
+              value={this.state.review_type}
+              onChange={this.onChangeCompletionDate}
+            />
+          </div>
+          <div className="form-group">
+            <label>Completion Date: </label>
+            <input
+              type="text"
+              className="form-control"
+              value={this.state.languages}
+              onChange={this.onChangeCompletionDate}
+            />
+          </div>
+          <div className="form-group">
+            <label>Completion Date: </label>
+            <input
+              type="text"
+              className="form-control"
+              value={this.state.country}
+              onChange={this.onChangeCompletionDate}
+            />
+          </div>
+          <div className="form-group">
+            <label>Completion Date: </label>
+            <input
+              type="text"
+              className="form-control"
+              value={this.state.published_protocol}
+              onChange={this.onChangeCompletionDate}
+            />
+          </div>
+          <div className="form-group">
+            <label>Completion Date: </label>
+            <input
+              type="text"
+              className="form-control"
+              value={this.state.other_registration_details}
+              onChange={this.onChangeCompletionDate}
+            />
+          </div>
+          <div className="form-group">
+            <label>Completion Date: </label>
+            <input
+              type="text"
+              className="form-control"
+              value={this.state.dissemination_plans}
+              onChange={this.onChangeCompletionDate}
+            />
+          </div>
+          <div className="form-group">
+            <label>Completion Date: </label>
+            <input
+              type="text"
+              className="form-control"
+              value={this.state.keywords}
+              onChange={this.onChangeCompletionDate}
+            />
+          </div>
+          <div className="form-group">
+            <label>Completion Date: </label>
+            <input
+              type="text"
+              className="form-control"
+              value={this.state.existing_review_details}
+              onChange={this.onChangeCompletionDate}
+            />
+          </div>
+          <div className="form-group">
+            <label>Completion Date: </label>
+            <input
+              type="text"
+              className="form-control"
+              value={this.state.current_status}
+              onChange={this.onChangeCompletionDate}
+            />
+          </div>
+          <div className="form-group">
+            <label>Completion Date: </label>
+            <input
+              type="text"
+              className="form-control"
+              value={this.state.additional_info}
+              onChange={this.onChangeCompletionDate}
+            />
+          </div>
+          <div className="form-group">
+            <label>Completion Date: </label>
+            <input
+              type="text"
+              className="form-control"
+              value={this.state.final_publication_details}
+              onChange={this.onChangeCompletionDate}
+            />
           </div>
           <div className="form-group">
             <input
               type="submit"
-              value="Create person"
+              value="Submit Review"
               className="btn btn-primary"
             />
           </div>

@@ -1,3 +1,9 @@
+/**
+ * Code based on MERN stack tutorial provided by MongoDB's website
+ * https://www.mongodb.com/languages/mern-stack-tutorial
+ * Accessed: 11/11/21
+ */
+
 const express = require("express");
 const app = express();
 const cors = require("cors");
